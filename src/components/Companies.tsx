@@ -3,25 +3,25 @@ import { useRef, useState } from 'react';
 
 const companies = [
   {
-    logo: '/ldn-portfolio/companies/ibm.svg'
+    logo: '/My_Portfolio/companies/ibm.svg'
   },
   {
-    logo: '/ldn-portfolio/companies/atlassian.svg'
+    logo: '/My_Portfolio/companies/atlassian.svg'
   },
   {
-    logo: '/ldn-portfolio/companies/google.webp'
+    logo: '/My_Portfolio/companies/google.webp'
   },
   {
-    logo: '/ldn-portfolio/companies/meta.svg'
+    logo: '/My_Portfolio/companies/meta.svg'
   },
   {
-    logo: '/ldn-portfolio/companies/microsoft.webp'
+    logo: '/My_Portfolio/companies/microsoft.webp'
   },
   {
-    logo: '/ldn-portfolio/companies/amazon.svg'
+    logo: '/My_Portfolio/companies/amazon.svg'
   },
   {
-    logo: '/ldn-portfolio/companies/netflix.png'
+    logo: '/My_Portfolio/companies/netflix.png'
   }
 ];
 

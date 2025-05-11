@@ -4,32 +4,32 @@ import { X } from 'lucide-react'; // Import X icon for close button
 
 const galleryImages = [
   {
-    src: '/ldn-portfolio/img (1).jpg',
+    src: '/My_Portfolio/img (1).jpg',
     alt: 'Profile Picture',
     title: 'Main Profile'
   },
   {
-    src: '/ldn-portfolio/1.jpg',
+    src: '/My_Portfolio/1.jpg',
     alt: 'Profile Picture',
     title: 'Main Profile'
   },
   {
-    src: '/ldn-portfolio/img (2).png',
+    src: '/My_Portfolio/img (2).png',
     alt: 'Profile Picture',
     title: 'Main Profile'
   },
   {
-    src: '/ldn-portfolio/img (18).png',
+    src: '/My_Portfolio/img (18).png',
     alt: 'Profile Picture',
     title: 'Main Profile'
   },
   {
-    src: '/ldn-portfolio/img (6).png',
+    src: '/My_Portfolio/img (6).png',
     alt: 'Profile Picture',
     title: 'Main Profile'
   },
   {
-    src: '/ldn-portfolio/img (14).png',
+    src: '/My_Portfolio/img (14).png',
     alt: 'Profile Picture',
     title: 'Main Profile'
   },
