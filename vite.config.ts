@@ -1,17 +1,16 @@
+// vite.config.ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Update this line:
-  base: "/my-portfolio-/", // Replace my-portfolio- with your actual repository name
+  base: "/My-portfolio-/", // Ensure this matches your repo name EXACTLY
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
+    assetsDir: 'assets', // This means assets will be in /My-portfolio-/assets/
     rollupOptions: {
       output: {
         manualChunks: undefined
@@ -19,8 +18,3 @@ export default defineConfig({
     }
   }
 });
-
-// This configuration file is for a Vite project using React.
-// It includes the React plugin for Vite and sets the base path for the project.
-// The base path is set to "/my-portfolio-/" which should be replaced with the actual repository name.
-// The configuration also optimizes dependencies and specifies the output directory and assets directory for the build.
