@@ -19,3 +19,8 @@ export default defineConfig({
     }
   }
 });
+
+// This configuration file is for a Vite project using React.
+// It includes the React plugin for Vite and sets the base path for the project.
+// The base path is set to "/my-portfolio-/" which should be replaced with the actual repository name.
+// The configuration also optimizes dependencies and specifies the output directory and assets directory for the build.
