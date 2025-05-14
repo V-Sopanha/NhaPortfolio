@@ -228,7 +228,7 @@ export default function Footer() {
           >
             <motion.div className="space-y-2">
               <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">
-                LYUDOMMUNY THOL
+                Voeun Sopanha
               </h3>
               <p className="text-gray-400 font-light">
                 Building digital experiences that matter
@@ -283,7 +283,7 @@ export default function Footer() {
               className="text-sm text-gray-400"
               whileHover={{ scale: 1.01 }}
             >
-              © {currentYear} LYUDOMMUNY THOL. All rights reserved.
+              © {currentYear} Voeun Sopanha. All rights reserved.
             </motion.p>
             <div className="flex gap-8">
               {['Privacy Policy', 'Terms of Service'].map((item) => (
