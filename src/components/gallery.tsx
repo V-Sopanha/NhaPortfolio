@@ -4,12 +4,12 @@ import { X } from 'lucide-react'; // Import X icon for close button
 
 const galleryImages = [
   {
-    src: '/driver5.avif',
+    src: 'public/photos/driver5.avif',
     alt: 'Profile Picture',
     title: 'Main Profile'
   },
   {
-    src: '/1.jpg',
+    src: '/photos/1.jpg',
     alt: 'Profile Picture',
     title: 'Main Profile'
   },
