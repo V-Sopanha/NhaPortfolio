@@ -3,25 +3,25 @@ import { useRef, useState } from 'react';
 
 const companies = [
   {
-    logo: '/My_Portfolio/companies/ibm.svg'
+    logo: '/companies/ibm.svg'
   },
   {
-    logo: '/My_Portfolio/companies/atlassian.svg'
+    logo: '/companies/atlassian.svg'
   },
   {
-    logo: '/My_Portfolio/companies/google.webp'
+    logo: '/companies/google.webp'
   },
   {
-    logo: '/My_Portfolio/companies/meta.svg'
+    logo: '/companies/meta.svg'
   },
   {
-    logo: '/My_Portfolio/companies/microsoft.webp'
+    logo: '/companies/microsoft.webp'
   },
   {
-    logo: '/My_Portfolio/companies/amazon.svg'
+    logo: '/companies/amazon.svg'
   },
   {
-    logo: '/My_Portfolio/companies/netflix.png'
+    logo: '/companies/netflix.png'
   }
 ];
 
@@ -116,6 +116,7 @@ export default function Companies() {
           {DUPLICATED_COMPANIES.map((company, idx) => (
             <motion.img
               key={idx}
+              
               src={company.logo}
               alt="Company logo"
               initial={{ opacity: 0, y: 20 }}
