@@ -1,4 +1,4 @@
-import { motion, useAnimationFrame, animate } from 'framer-motion';
+import { motion, useAnimationFrame } from 'framer-motion';
 import { useRef, useState } from 'react';
 
 const companies = [
