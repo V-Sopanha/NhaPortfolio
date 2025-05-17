@@ -12,7 +12,7 @@ const companies = [
     logo: './companies/google.webp'
   },
   {
-    logo: './companies/meta.svg'
+    logo: '/companies/meta.svg'
   },
   {
     logo: './companies/microsoft.webp'
