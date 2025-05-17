@@ -3,7 +3,7 @@ import { useRef, useState } from 'react';
 
 const companies = [
   {
-    logo: 'companies/ibm.svg'
+    logo: './companies/ibm.svg'
   },
   {
     logo: './companies/atlassian.svg'
@@ -12,16 +12,16 @@ const companies = [
     logo: './companies/google.webp'
   },
   {
-    logo: '/companies/meta.svg'
+    logo: './companies/meta.svg'
   },
   {
-    logo: '/companies/microsoft.webp'
+    logo: './companies/microsoft.webp'
   },
   {
-    logo: '/companies/amazon.svg'
+    logo: './companies/amazon.svg'
   },
   {
-    logo: '/companies/netflix.png'
+    logo: './companies/netflix.png'
   }
 ];
 
